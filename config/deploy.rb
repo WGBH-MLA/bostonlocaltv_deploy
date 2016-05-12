@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.3.5'
 
-set :application, 'aapb'
-set :repo_url, 'https://github.com/WGBH/AAPB2.git'
+set :application, 'bostonlocaltv'
+set :repo_url, 'https://github.com/WGBH/bostonlocaltv.git'
 
 set :rails_env, 'production'
 
