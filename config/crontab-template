@@ -15,4 +15,4 @@ HOME=/
 # *  *  *  *  * user-name command to be executed
 
 # Deletes searches auto-saved by Blacklight
-  0  0  *  *  * ec2-user cd /var/www/bostonlocaltv/current && RAILS_ENV=production /usr/local/bin/bundle exec rake blacklight:delete_old_searches[1]
+  0  0  *  *  * cd /var/www/bostonlocaltv/current && RAILS_ENV=production /usr/local/bin/bundle exec rake blacklight:delete_old_searches[1]
