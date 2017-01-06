@@ -48,4 +48,5 @@ namespace :deploy do
   end
 
   after :finishing, 'logrotate:upload_logrotate_file'
+  after :finishing, 'cron:upload_crontab'
 end
